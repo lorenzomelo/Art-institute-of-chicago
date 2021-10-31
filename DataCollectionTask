@@ -26,14 +26,5 @@ for h in dati_json["data"]:
 csv_file_path = 'Art.csv'
 df = pandas.DataFrame(l)
 name_92 = [i for i in dati_json["data"][0]]
-name_93 = [i for i in dati_json["data"][3]]
-name_92.insert(88, name_93[88])
 df.columns = name_92
 df.to_csv(csv_file_path, index=False)
-
-for i in range(92):
-    if name_92[i] == name_93[i]:
-        pass
-    else:
-        print(i)
-    
