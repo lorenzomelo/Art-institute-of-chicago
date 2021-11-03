@@ -6,14 +6,17 @@ Created on Sat Oct 23 17:53:28 2021
 @author: lorenzomeloncelli
 """
 
+# We first retrieve the contents from a web ULR using the requests module
 import requests
 
+# Then we write the contents to a specific file
 res = requests.get("https://api.artic.edu/api/v1/artworks")
 file1 =  open("./file-" + "Art-institute-of-chicago" + ".json", "w+")
 print(file1)
 file1.writelines(res.text)
 file1.close()
 
+# Finally we manipulate the data and load them in a dataframe, so that we can use the to_csv() function to create a .csv
 import json
 import pandas
 
