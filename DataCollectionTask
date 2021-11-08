@@ -31,4 +31,4 @@ csv_file_path = 'Art.csv'
 df = pandas.DataFrame(l)
 col = [i for i in dati_json["data"][0]]
 df.columns = col
-df.to_csv(csv_file_path, index=False)
+df.to_csv(csv_file_path, sep = ';', index=False)
