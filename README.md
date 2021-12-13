@@ -20,3 +20,27 @@ In order to do this, we first use json.loads() to load the .json content in a py
 
 SECOND TASK
 
+Data manipulation task
+The first thing we had to do to complete our task was to extract some useful information that was saved inside dictionaries in the “thumbnail” column. We created new column named after the keys of the dictionaries and containing the associated values for each observation.
+
+Data Exploration task
+After doing this, we started looking at our dataset to find some information that could be visualized to extract some insights. Unfortunately, given the nature of the data we found very little useful information to be shown.
+To carry out our data exploration task we used both the ggplot functions imported from plotnine and the matplotlib library to plot a bar timeline.
+The first plot we made is a scatterplot of dimensions per artwork.
+
+<img width="482" alt="image" src="https://user-images.githubusercontent.com/93518256/145825961-4198e0a6-771c-472b-af76-0f2b4ac525ca.png">
+ 
+
+The second one is a bar plot showing the number of artworks per country of origin.
+ 
+ <img width="482" alt="image" src="https://user-images.githubusercontent.com/93518256/145826028-f2ec3697-8959-4e3c-ac90-a48fb8ba2614.png">
+
+
+The last two are bar timelines of the estimated period in which the artists worked on the artworks. We divided the two in modern and antique artworks for better visualization. The first plot is not very useful and clear because some for some artworks a very short period of time was spent in realizing them.
+
+ <img width="482" alt="image" src="https://user-images.githubusercontent.com/93518256/145826058-a90f12a2-0489-4a13-98a5-4d0a5fa5d538.png">
+
+
+On the other end, for the two most antique artworks, the bar timeline looks better. 
+
+<img width="482" alt="image" src="https://user-images.githubusercontent.com/93518256/145826085-9e410d93-feb7-4dcf-81b1-b96afa7f232f.png">
