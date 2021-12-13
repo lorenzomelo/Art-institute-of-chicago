@@ -20,12 +20,11 @@ In order to do this, we first use json.loads() to load the .json content in a py
 
 SECOND TASK
 
-The second task was a data analysis task and was supposed to be carried out using both Python and R programming languages. The task had 2 inputs: ● Dataset-1. The dataset built upon completion of the previous task by the students themselves. ● Dataset-2. A dataset built by another group of students and published to github for a project different than the one developed by the group. We were required to use the Python programming language to analyze Dataset-1 and the R programming language to analyze Dataset-2. 
-This specific repository is about Dataset-1.
+The second task was a data analysis task and was supposed to be carried out using both Python and R programming languages. The task had 2 inputs: ● Dataset-1. The dataset built upon completion of the previous task by the students themselves. ● Dataset-2. A dataset built by another group of students and published to github for a project different than the one developed by the group. We were required to use the Python programming language to analyze Dataset-1 and the R programming language to analyze Dataset-2. This specific repository is about Dataset-1.
 
 The first thing we had to do to complete the task was to extract some useful information that was saved inside dictionaries in the “thumbnail” column. We created a new column named after the keys of the dictionaries and containing the associated values for each observation.
-After doing this, we started looking at our dataset to find some information that could be visualized to extract some insights. Unfortunately, given the nature of the data we found very little useful information to be shown.
+Then we started looking at our dataset to find some information that could have been visualized to extract some insights. Unfortunately, given the nature of the data, we found very little useful information to be shown.
 To carry out our data exploration task we used both the ggplot functions imported from plotnine and the matplotlib library to plot a bar timeline.
 The first plot we made is a scatterplot of dimensions per artwork. 
-The second one is a bar plot showing the number of artworks per country of origin.
-The last two are bar timelines of the estimated period in which the artists worked on the artworks. We divided the two in modern and antique artworks for better visualization. The first plot is not very useful and clear because some for some artworks a very short period of time was spent in realizing them. On the other end, for the two most antique artworks, the bar timeline looks better. 
+The second one is a barplot showing the number of artworks per country of origin.
+The last two are bar timelines of the estimated period in which the artists worked on the artworks. We divided the two in "modern" and "antique" artworks for a better visualization. The first plot is not very useful and clear because, for some artworks, a very short period of time was spent in realizing them. On the other end, for the two most antique artworks, the bar timeline looks better. 
