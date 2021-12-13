@@ -1,4 +1,7 @@
 # Art-institute-of-chicago
+
+FIRST TASK
+
 The first task is a data collection task: we are are required to collect data by accessing the API of third party services. The task is completed when a full dataset is built.
 
 The project that we have chosen in order to complete this task is the project #5: the Art Institute of Chicago's API provides JSON-formatted data as a REST-style service that allows developers to explore and integrate the museum’s public data into their projects.
@@ -12,3 +15,8 @@ file.close()
 
 Finally we need to manipulate the data and load them in a dataframe (two-dimensional, size-mutable, potentially heterogeneous tabular data), so that we can use the to_csv() function to create a .csv.
 In order to do this, we first use json.loads() to load the .json content in a python object (e.g, a list) and then the latter is transformed into a dataframe using pandas.DataFrame() from pandas library. Once we have done this, the final step before converting the dataframe in .csv is to name the columns through the .columns function.
+
+
+
+SECOND TASK
+
