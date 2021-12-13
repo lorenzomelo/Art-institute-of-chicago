@@ -18,6 +18,8 @@ In order to do this, we first use json.loads() to load the .json content in a py
 
 
 
+
+
 SECOND TASK
 
 The second task was a data analysis task and was supposed to be carried out using both Python and R programming languages. The task had 2 inputs: ● Dataset-1. The dataset built upon completion of the previous task by the students themselves. ● Dataset-2. A dataset built by another group of students and published to github for a project different than the one developed by the group. We were required to use the Python programming language to analyze Dataset-1 and the R programming language to analyze Dataset-2. 
